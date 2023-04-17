@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_nowActivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="OnClick"
+            android:background="@mipmap/page1button2"/>
+
+        <Button
+            android:id="@+id/btn_DomesticArea"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="OnClick"
+            android:background="@mipmap/page2button2"/>
+
+        <Button
+            android:id="@+id/btn_WorldArea"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="OnClick"
+            android:background="@mipmap/page3button2"/>
+
+        <Button
+            android:id="@+id/btn_Emergency"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="OnClick"
+            android:background="@mipmap/page4button2"/>
+
+        <Button
+            android:id="@+id/btn_Poster"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="OnClick"
+            android:background="@mipmap/page5button2"/>
+
+</LinearLayout>
